@@ -133,4 +133,10 @@ class BallPit {
         ballB.setxVel(ballB.getxVel() + deltaVB.getX());
         ballB.setyVel(ballB.getyVel() + deltaVB.getY());
     }
+
+
+    public void addBall(Ball ball) {
+        balls.add(ball);
+    }
+
 }
